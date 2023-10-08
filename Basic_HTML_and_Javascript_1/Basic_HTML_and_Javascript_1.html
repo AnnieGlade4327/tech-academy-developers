@@ -7,12 +7,17 @@
     <script src="Basic_Javascript_1.js"></script>
 </head>
 <body>
+    <center>
+    <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+		<font color="3E7C28" font-family: "" size="7" >
+            Let Us Help You Get Ready to Plan Your Next Vacation!</p>
 	<h1><button onclick="My_First_Function()">
 		Click Here for Itinerary!</button></h1>
 	<button onclick="My_Second_Function()">
 		Click Here for Meal Plan! </button>
 	<p id="Ireland"></p>
 	<p id="MealPlan"></p>
+    </center>
 <script>
 	function My_First_Function() {
 		var String = "Set your Itinerary!";
@@ -21,7 +26,7 @@
 		result;}
 		function My_Second_Function() {
 		var String = "Choose Your Meal Plan";
-		var result = String.fontcolor("#FFA07A");
+		var result = String.fontcolor("#FFA07A"); 
 		document.getElementById("MealPlan").innerHTML = 
 		result;
 		}
